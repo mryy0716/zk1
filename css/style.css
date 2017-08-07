@@ -1,0 +1,156 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+header ul{
+    width: 85%;
+    margin:0 auto;
+    color:#000;
+    font-size: 18px;
+    font-weight: bold;
+}
+header ul li{
+    float: left;
+    text-align: center;
+    width: 100px;
+}
+header a{
+    display: block;
+}
+header span{
+    width: 15%;
+    float: right;
+    font-size: 14px;
+    padding-right: 20px;
+}
+.bg{
+    color:red;
+    border-bottom: 2px solid red;
+}
+nav{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-top:10px;
+}
+nav ul{
+    width: 90%;
+    margin:auto;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    display: flex;
+}
+nav ul li{
+    flex: 1;
+    text-align: center;
+    border-left:1px solid #ccc;
+}
+.navbg{
+    background: red;
+    color:#fff;
+}
+.left{
+    border-left: none;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+.nav{
+    width: 100%;
+}
+.nav ul{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+}
+.nav ul li{
+    flex:1;
+    text-align: center;
+}
+.col{
+    color:red;
+}
+.box{
+    width: 100%;
+    height: auto;
+    border-top:1px solid #f2f2f2;
+    padding: 15px 0;
+}
+h3{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 30px;
+}
+h3 span{
+    border: 1px solid #69ca6b;
+    color:#69ca6b;
+    float:right;
+    height:30px;
+    line-height: 30px;
+    border-radius:15px;
+    padding: 0 10px;
+    margin-right: 15px;
+}
+p{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 30px;
+    display: flex;
+}
+p a{
+    color:#1ca5ed;
+    flex: 1;
+}
+p span,.img{
+    flex: 1;
+}
+.img{
+    margin-top: 5px;
+}
+p img{
+    width: 20%;
+    height: auto;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    background: #fff;
+}
+footer dl{
+    width: 25%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+footer dl dd{
+    line-height: 24px;
+}
+footer ul{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    background: #000;
+    color:#fff;
+}
+footer ul li{
+    flex: 1;
+    text-align: center;
+}
